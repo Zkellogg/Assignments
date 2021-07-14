@@ -1,0 +1,1 @@
+becausetest1test2/usr/local/bin/python3 "/Users/zac/Desktop/Class Activitys/writenametofile.py"/usr/local/bin/python3 "/Users/zac/Desktop/Class Activitys/writenametofile.py"
