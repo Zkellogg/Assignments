@@ -1,7 +1,9 @@
 from pooltableclass import *
 
+pool_table_function()
+
 while True:
-    pool_table_function()
+    
 
     table_choice = input("Please type the table # you would like to edit or press q to quit program. > ")
 

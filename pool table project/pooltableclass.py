@@ -1,3 +1,6 @@
+from os import write
+
+
 tables_array = []
 
 class PoolTable:
@@ -5,6 +8,12 @@ class PoolTable:
         self.id = id
         self.taken = taken
         self.time_used = time_used
+
+for i in range(1, 13):
+    id = 'pool_table_{}'.format(i)
+    taken = False
+    time_used = 0
+    tables_array.append(PoolTable(id, taken, time_used))
 
 
 def pool_table_function():
@@ -222,12 +231,10 @@ def pool_table_12():
         print("Pool Table 12 is checked in")
         pool_table_function()
 
+with open("PoolTable.txt", "a") as file:
+    write.file()
 
-for i in range(1, 13):
-    id = 'pool_table_{}'.format(i)
-    taken = False
-    time_used = 0
-    tables_array.append(PoolTable(id, taken, time_used))
+
 
 
     
