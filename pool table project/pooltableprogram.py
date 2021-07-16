@@ -19,37 +19,59 @@ while True:
             json.dump(write_file_array, file)
 
     if table_choice =="2":
-        pool_table_2()
+        write_file_array = pool_table_2()
+        with open("07-14-2021.json", "w") as file:
+            json.dump(write_file_array, file)
         
     if table_choice =="3":
-        pool_table_3()
+        write_file_array = pool_table_3()
+        with open("07-14-2021.json", "w") as file:
+            json.dump(write_file_array, file)
 
     if table_choice =="4":
-        pool_table_4()
+        write_file_array = pool_table_4()
+        with open("07-14-2021.json", "w") as file:
+            json.dump(write_file_array, file)
 
     if table_choice =="5":
-        pool_table_5()
+        write_file_array = pool_table_5()
+        with open("07-14-2021.json", "w") as file:
+            json.dump(write_file_array, file)
 
     if table_choice =="6":
-        pool_table_6()
+        write_file_array = pool_table_6()
+        with open("07-14-2021.json", "w") as file:
+            json.dump(write_file_array, file)
 
     if table_choice =="7":
-        pool_table_7()
+        write_file_array = pool_table_7()
+        with open("07-14-2021.json", "w") as file:
+            json.dump(write_file_array, file)
 
     if table_choice =="8":
-        pool_table_8()
+        write_file_array = pool_table_8()
+        with open("07-14-2021.json", "w") as file:
+            json.dump(write_file_array, file)
 
     if table_choice =="9":
-        pool_table_9()
+        write_file_array = pool_table_9()
+        with open("07-14-2021.json", "w") as file:
+            json.dump(write_file_array, file)
 
     if table_choice =="10":
-        pool_table_10()
+        write_file_array = pool_table_10()
+        with open("07-14-2021.json", "w") as file:
+            json.dump(write_file_array, file)
 
     if table_choice =="11":
-        pool_table_11()
+        write_file_array = pool_table_11()
+        with open("07-14-2021.json", "w") as file:
+            json.dump(write_file_array, file)
 
     if table_choice =="12":
-        pool_table_12()
+        write_file_array = pool_table_12()
+        with open("07-14-2021.json", "w") as file:
+            json.dump(write_file_array, file)
 
 
     
